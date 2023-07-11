@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((10#${WATER//water/}+10#${STIR//stir/})) | bc | tr -d '\\\n'
