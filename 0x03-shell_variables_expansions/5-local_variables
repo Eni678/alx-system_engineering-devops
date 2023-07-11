@@ -1,2 +1,2 @@
 #!/bin/bash
-{ declare -p | grep "declare --"; echo "Environment Variables:"; env; echo "Functions:"; declare -F; } | less
+set
